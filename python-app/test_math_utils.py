@@ -8,5 +8,5 @@ class TestFactorial(unittest.TestCase):
  def test_factorial_0(self):
     self.assertEqual(factorial(0), 1)
 if __name__ == '__main__':
-unittest.main(testRunner=xmlrunner.XMLTestRunner(output='testreports'))
+    unittest.main(testRunner=xmlrunner.XMLTestRunner(output='testreports'))
 
