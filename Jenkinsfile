@@ -3,7 +3,7 @@ pipeline {
     stages { 
         stage('Checkout') { 
             steps { 
-                git branch: 'main', url: 'https://github.com/JawharSoussia/tp_CI_CD' 
+                git branch: 'main', url: 'https://github.com/JawharSoussia/tp_CI_CD.git' 
             } 
         } 
  
